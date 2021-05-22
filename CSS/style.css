@@ -1,0 +1,110 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    background: #ffe6cc;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 60px;
+    margin: -5px;
+    margin-top: -10px;   
+    margin-bottom: 100px;
+}
+
+main {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex: start;
+}
+
+.post-header img {
+    height: 348px;
+    width: auto;
+}
+
+.text {
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+}
+
+.button {
+    color: white;
+    background: black;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    top: 10px;
+    left: 25%;
+    right: 25%;
+    position: relative;
+}
+
+
+.content-box {
+    background: white;
+    border-bottom: 1px solid #ccc;
+    width: min-content;
+    margin-right: 50px;
+}
+
+.sidebar-box {
+    background: white;
+    border-bottom: 1px solid #ccc;
+    width: min-content;
+    flex-direction: column; 
+    }
+
+.sidebar {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    display: block;
+}
+
+.sidebar2 {
+    display: block;
+}
+
+.text > h1 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.asidebar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    background: #17202A;
+    margin: -20px;
+    margin-top: 150px;
+    text-align: left;
+    align-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-aside {
+    margin: 120px;
+    font-size: 20px;
+    color: thistle;
+    padding-top: 10px;
+    width: min-content;
+}
+
+.text-aside > h2 {
+    color: white;
+}
